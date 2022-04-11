@@ -1,5 +1,4 @@
-*{
-    padding: 0;
+  padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
@@ -18,7 +17,7 @@
 }
 .left-section{
     grid-column: span 1;
-    background-color: rgb(105, 105,105);
+    background-color: rgb(15, 105,105);
 }
 .left-content{
     padding: 1rem;
@@ -71,9 +70,9 @@ hr{
     margin: auto;
 }
 .icon{
-    display: block;
+    display: inline-block;
     margin: auto;
-    padding: 8px;
+    padding:8px;
 }
 .fa{
     color: rgb(147, 201, 233);
