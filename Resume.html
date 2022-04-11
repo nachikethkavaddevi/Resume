@@ -1,6 +1,335 @@
-<html>
-      <head></head>
-<title></title>
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100&display=swap" rel="stylesheet">
+    <link href="resume1o1.css" rel="stylesheet">
+    <title>Resume</title>
+    
+    <style>
+      *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* body{
+    margin: auto;
+    padding: 3rem;
+    background-color: rgb(165, 221, 238);
+} */
+.main-content{
+    display: grid;
+    min-height: 1000px;
+    width: 90%;
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: rgb(15, 105,105);
+}
+.left-content{
+    padding: 1rem;
+}
+.profile-pic{
+    margin-top: 50px;
+}
+.profile-image{
+    display: block;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+    color: white;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+hr{
+    background-color: white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: auto;
+}
+.personal-details{
+    list-style: none;
+    font-size: 15px;
+    margin: auto;
+}
+.icon{
+    display: inline-block;
+    margin: auto;
+    padding:8px;
+}
+.fa{
+    color: rgb(147, 201, 233);
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+.skill-name{
+    color: white;
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    height: 4px;
+    border: 1px solid white;
+    background-color: white;
+}
+.skill-item{
+    padding: 0.5rem;
+}
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color: rgb(241, 250, 252);
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.para{
+    padding: 0.5rem;
+}
+@media screen and (min-width: 0px) and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    </style>
+</head>
+
 <body>
-	
-</body>
+
+    <body>
+        <main class="main-content">
+            <section class="left-section ">
+                <div class="left-content">
+                    <div class="profile-details">
+                        <img class="profile-image"
+                            src="https://media-exp1.licdn.com/dms/image/C5103AQEKAkhnpCKI-w/profile-displayphoto-shrink_200_200/0/1568629225041?e=1652918400&v=beta&t=L8k66xL0D1waORhC-9Zau8HfjgqfhVGrTCBJ4k4FMxI"
+                            alt="profile-pic">
+                    </div>
+                    <h2 class="name">NACHIKETH KAVADDEVI</h2>
+                    <h4 class="designation">Web Developer</h4>
+                    <hr>
+                    <p class="description"> Designing| Developing</p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="social-media">
+                            <li class="icon">
+                                <a href="#" title="linkdin">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+
+                            <li class="icon">
+                                <a href="#" title="Github">
+                                    <i class="fa fa-github" aria-hidden="true"></i></a>
+
+                            </li>
+
+                            <li class="icon">
+                                <a href="#" title="facebook">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+
+                            <li class="icon">
+                                <a href="#" title="twitter">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+
+                        </div>
+                        <div class="personal-details">
+                            <ul>
+                                <li>
+                                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    <span class="text">nachiketh.a007@gmail.com</span>
+                                </li>
+
+                                <li>
+                                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    <span class="text">+91 8793502509</span>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    <span class="text">Solapur, Maharashtra</span>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="contact-info skills">
+                    <h2 class="skill-title">Skills</h2>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width:70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width:55%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <h3>JAVASCRIPT</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width:20%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <h3>C</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width:70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <h3>Java</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width:80%"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="right-section">
+                <div class="right-main-content">
+                    <section class="about">
+                        <h2 class="right-title">ABOUT ME</h2>
+                        <p class="para" style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Sapiente eius veniam molestiae, nemo optio maxime nesciunt. Ad reprehenderit cumque
+                            totam soluta velit unde sequi possimus.</p>
+                    </section>
+
+                    <section class="about">
+                        <h2 class="right-title">Education</h2>
+                        <div class="box">
+                            <div class="year_company">
+                                <h5>B.Tech Mechanical Engineering</h5>
+                                <h5>2017 - 2021</h5>
+                            </div>
+
+                        </div>
+                        <div class="box">
+                            <div class="year_company">
+                                <h5>HSC</h5>
+                                <h5>2015 - 2017</h5>
+                            </div>
+                            <div class="box">
+                            <div class="year_company">
+                                <h5>SSC</h5>
+                                <h5> -2015</h5>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="about">
+                        <h2 class="right-title">Internship</h2>
+                        <div class="box">
+                            <div class="year_company">
+                                <h5>Kirloskar Ferrious Industry pvt.Ltd.</h5>
+                                <h5>March 2021 - June 2021</h5>
+                            </div>
+                            <div class="text">
+                                <h5 class="qualification">Engineering Excellency</h5>
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Ullam numquam quis, officiis
+                                    nesciunt amet Nemo. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <section class="about">
+                        <h2 class="right-title">projects </h2>
+                        <div class="box">
+                            <div class="year_company">
+                                <h5>SAE-INDIA SUPRA</h5>
+                                <h5>Nov 2018 - April 2019</h5>
+                            </div>
+                            <div class="text">                          
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Ullam numquam quis, officiis
+                                    nesciunt amet Nemo. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div><br>
+                        <div class="box">
+                            <div class="year_company">
+                                <h5>Solar Car</h5>
+                                <h5>Oct 2019 - July 2020</h5>
+                            </div>
+                            <div class="text">                   
+                                <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Ullam numquam quis, officiis
+                                    nesciunt amet Nemo. Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
